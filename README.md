@@ -1,2 +1,2 @@
-# goffice-common-troubleshooting
-goffice-common-troubleshooting
+# Goffice Troubleshooting
+

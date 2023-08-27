@@ -1,0 +1,26 @@
+{
+	"tenants":{
+		"bolzano":{
+			"keycloak":"Bolzano",
+			"belfiore":"belfioreBolzano",
+			"istat":"istatBolzano",
+			"dbSchema":"DBSCHEMABOLZANO",
+			"codCatastale":"codCatastaleBolzano"
+			
+		},
+		"abtei":{
+			"keycloak":"Abtei",
+			"belfiore":"belfioreAbtei",
+			"istat":"istatAbtei",
+			"dbSchema":"DBSCHEMAABTEI",
+			"codCatastale":"codCatastaleAbtei"
+			
+		},
+		"sgv":{
+			"keycloak":"sgv",
+			"belfiore":"belfioreAbtei",
+			"istat":"istatAbtei",
+			"dbSchema":"PUBLIC"
+		}
+	}
+}

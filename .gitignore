@@ -1,0 +1,11 @@
+.classpath
+.project
+.settings/
+target/
+src_gen/
+bin/
+LOG_DIR_IS_UNDEFINED/
+log/
+logs/
+*.log
+/lombok.config
