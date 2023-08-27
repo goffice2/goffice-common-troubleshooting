@@ -69,19 +69,4 @@ public class TroubleShootingTest {
 		Message message = new Message(testoMessaggio.getBytes());
 		Assertions.assertDoesNotThrow(() -> emailService.sendMessage(message, testoMessaggio, null));
 	}
-
-	// private Message createFakeRequest() {
-	// ImportaFlussoRequestDTO request = new ImportaFlussoRequestDTO();
-	// List<DocumentDTO> lista = new ArrayList<DocumentDTO>();
-	// DocumentDTO item = new DocumentDTO();
-	// lista.add(item);
-	// DomandaDTO domanda = new DomandaDTO();
-	// domanda.setCodiceIntervento("testCodintervento");
-	// domanda.setCodicePratica("testCodicePratica");
-	// domanda.setProtocolloNumero("testprotocolloNumero");
-	// request.setDomanda(domanda);
-	// byte[] ret = SerializationUtils.serialize(domanda);
-	// Message message = new Message(ret);
-	// return message;
-	// }
 }
